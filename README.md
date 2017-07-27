@@ -37,8 +37,8 @@ Following table explains respective files and there purpose.
 
 | File Name      | Purpose     |
 | -------------- | ------------ |
-|  ReadMe.md     | Discription of the Project |                     
-| CodeBook.md    | describes the variables, the data, and any transformations or work that was performed to clean up the data. |
+|  README.md     | Discription of the Project |                     
+| codebook.md    | describes the variables, the data, and any transformations or work that was performed to clean up the data. |
 | run_analysis.R | contains all the code to perform the analyses. |
 | output.txt     | Final Output of the code |                       
 
