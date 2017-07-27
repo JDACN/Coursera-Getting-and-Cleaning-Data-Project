@@ -9,7 +9,7 @@ A full description of the data used in this project can be found at [The UCI Mac
 
 [The source data for this project can be found here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-### Transformation and Workin of Script *run_analysis.R*
+### Transformation and Workin of Script * run_analysis.R* 
 
 The script run in followin order to genrate tidy data from source data.
 
@@ -19,77 +19,77 @@ The script run in followin order to genrate tidy data from source data.
 * Bind all the data in a single data table.
 * Generate Tidy Data file `output.txt`
 
-### Columns in output file *output.txt*
+### Columns in output file * output.txt* 
 
 The columns included in the output file are listed below:
-*subject  - The id of the experiment participant.
-*activity - The name of the activity that the measurements correspond to variable like LAYING or WALKING etc. 
+* subject  - The id of the experiment participant.
+* activity - The name of the activity that the measurements correspond to variable like LAYING or WALKING etc. 
 
 All of the following fields represent the different measurement types.
 
-*tBodyAcc-mean()-X
-*tBodyAcc-mean()-Y 
-*tBodyAcc-mean()-Z 
-*tBodyAcc-std()-X 
-*tBodyAcc-std()-Y 
-*tBodyAcc-std()-Z 
-*tGravityAcc-mean()-X 
-*tGravityAcc-mean()-Y 
-*tGravityAcc-mean()-Z 
-*tGravityAcc-std()-X 
-*tGravityAcc-std()-Y 
-*tGravityAcc-std()-Z 
-*tBodyAccJerk-mean()-X 
-*tBodyAccJerk-mean()-Y 
-*tBodyAccJerk-mean()-Z 
-*tBodyAccJerk-std()-X 
-*tBodyAccJerk-std()-Y 
-*tBodyAccJerk-std()-Z 
-*tBodyGyro-mean()-X 
-*tBodyGyro-mean()-Y 
-*tBodyGyro-mean()-Z 
-*tBodyGyro-std()-X 
-*tBodyGyro-std()-Y 
-*tBodyGyro-std()-Z 
-*tBodyGyroJerk-mean()-X 
-*tBodyGyroJerk-mean()-Y 
-*tBodyGyroJerk-mean()-Z 
-*tBodyGyroJerk-std()-X 
-*tBodyGyroJerk-std()-Y 
-*tBodyGyroJerk-std()-Z 
-*tBodyAccMag-mean() 
-*tBodyAccMag-std() 
-*tGravityAccMag-mean() 
-*tGravityAccMag-std() 
-*tBodyAccJerkMag-mean() 
-*tBodyAccJerkMag-std() 
-*tBodyGyroMag-mean() 
-*tBodyGyroMag-std() 
-*tBodyGyroJerkMag-mean() 
-*tBodyGyroJerkMag-std() 
-*fBodyAcc-mean()-X 
-*fBodyAcc-mean()-Y 
-*fBodyAcc-mean()-Z 
-*fBodyAcc-std()-X 
-*fBodyAcc-std()-Y 
-*fBodyAcc-std()-Z 
-*fBodyAccJerk-mean()-X 
-*fBodyAccJerk-mean()-Y 
-*fBodyAccJerk-mean()-Z 
-*fBodyAccJerk-std()-X 
-*fBodyAccJerk-std()-Y 
-*fBodyAccJerk-std()-Z 
-*fBodyGyro-mean()-X 
-*fBodyGyro-mean()-Y 
-*fBodyGyro-mean()-Z 
-*fBodyGyro-std()-X 
-*fBodyGyro-std()-Y 
-*fBodyGyro-std()-Z 
-*fBodyAccMag-mean() 
-*fBodyAccMag-std() 
-*fBodyBodyAccJerkMag-mean() 
-*fBodyBodyAccJerkMag-std() 
-*fBodyBodyGyroMag-mean() 
-*fBodyBodyGyroMag-std() 
-*fBodyBodyGyroJerkMag-mean() 
-*fBodyBodyGyroJerkMag-std()
+* tBodyAcc-mean()-X
+* tBodyAcc-mean()-Y 
+* tBodyAcc-mean()-Z 
+* tBodyAcc-std()-X 
+* tBodyAcc-std()-Y 
+* tBodyAcc-std()-Z 
+* tGravityAcc-mean()-X 
+* tGravityAcc-mean()-Y 
+* tGravityAcc-mean()-Z 
+* tGravityAcc-std()-X 
+* tGravityAcc-std()-Y 
+* tGravityAcc-std()-Z 
+* tBodyAccJerk-mean()-X 
+* tBodyAccJerk-mean()-Y 
+* tBodyAccJerk-mean()-Z 
+* tBodyAccJerk-std()-X 
+* tBodyAccJerk-std()-Y 
+* tBodyAccJerk-std()-Z 
+* tBodyGyro-mean()-X 
+* tBodyGyro-mean()-Y 
+* tBodyGyro-mean()-Z 
+* tBodyGyro-std()-X 
+* tBodyGyro-std()-Y 
+* tBodyGyro-std()-Z 
+* tBodyGyroJerk-mean()-X 
+* tBodyGyroJerk-mean()-Y 
+* tBodyGyroJerk-mean()-Z 
+* tBodyGyroJerk-std()-X 
+* tBodyGyroJerk-std()-Y 
+* tBodyGyroJerk-std()-Z 
+* tBodyAccMag-mean() 
+* tBodyAccMag-std() 
+* tGravityAccMag-mean() 
+* tGravityAccMag-std() 
+* tBodyAccJerkMag-mean() 
+* tBodyAccJerkMag-std() 
+* tBodyGyroMag-mean() 
+* tBodyGyroMag-std() 
+* tBodyGyroJerkMag-mean() 
+* tBodyGyroJerkMag-std() 
+* fBodyAcc-mean()-X 
+* fBodyAcc-mean()-Y 
+* fBodyAcc-mean()-Z 
+* fBodyAcc-std()-X 
+* fBodyAcc-std()-Y 
+* fBodyAcc-std()-Z 
+* fBodyAccJerk-mean()-X 
+* fBodyAccJerk-mean()-Y 
+* fBodyAccJerk-mean()-Z 
+* fBodyAccJerk-std()-X 
+* fBodyAccJerk-std()-Y 
+* fBodyAccJerk-std()-Z 
+* fBodyGyro-mean()-X 
+* fBodyGyro-mean()-Y 
+* fBodyGyro-mean()-Z 
+* fBodyGyro-std()-X 
+* fBodyGyro-std()-Y 
+* fBodyGyro-std()-Z 
+* fBodyAccMag-mean() 
+* fBodyAccMag-std() 
+* fBodyBodyAccJerkMag-mean() 
+* fBodyBodyAccJerkMag-std() 
+* fBodyBodyGyroMag-mean() 
+* fBodyBodyGyroMag-std() 
+* fBodyBodyGyroJerkMag-mean() 
+*  fBodyBodyGyroJerkMag-std()
